@@ -1,0 +1,151 @@
+/* ==================== GLOBAL STYLES ==================== */
+
+/* ==================== MAIN FONT ==================== */
+@font-face {
+  font-family: "Hitchcut";
+  src: url("../assets/fonts/Hitchcut-Regular.woff2") format("woff2"),
+    url("../assets/fonts/Hitchcut-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ==================== VARIABLES ==================== */
+
+:root {
+  /* ========== Heights ========== */
+  --header-height: 5.6rem;
+
+  /* ========== Weights ========== */
+
+  /* ========== Spacing ========== */
+
+  /* ========== Fonts And Typography ========== */
+  /* 0.5rem = 5px | 1rem = 10px | .....*/
+
+  --body-font: "Hitchcut", sans-serif;
+
+  /* ========== Colors ========== */
+  --background-tint: #0a0a0a;
+  --background-shade: #000000;
+
+  --gray-100: #1a1a1a;
+  --gray-200: #1f1f1f;
+  --gray-300: #292929;
+  --gray-400: #2e2e2e;
+  --gray-500: #454545;
+  --gray-600: #878787;
+  --gray-700: #8f8f8f;
+  --gray-800: #7d7d7d;
+  --gray-900: #a0a0a0;
+  --gray-1000: #ededed;
+
+  --gray-alpha-100: #ffffff11;
+  --gray-alpha-200: #ffffff16;
+  --gray-alpha-300: #ffffff20;
+  --gray-alpha-400: #ffffff25;
+  --gray-alpha-500: #ffffff3d;
+  --gray-alpha-600: #ffffff81;
+  --gray-alpha-700: #ffffff8a;
+  --gray-alpha-800: #ffffff78;
+  --gray-alpha-900: #ffffff9c;
+  --gray-alpha-1000: #ffffffeb;
+
+  --blue-100: #0f1b2d;
+  --blue-200: #10243e;
+  --blue-300: #0f3058;
+  --blue-400: #0d3868;
+  --blue-500: #0a4481;
+  --blue-600: #0091ff;
+  --blue-700: #0070f3;
+  --blue-800: #0060d1;
+  --blue-900: #52a9ff;
+  --blue-1000: #eaf6ff;
+
+  --red-100: #2a1314;
+  --red-200: #3d1719;
+  --red-300: #551a1e;
+  --red-400: #671e22;
+  --red-500: #822025;
+  --red-600: #e5484d;
+  --red-700: #e5484d;
+  --red-800: #da3036;
+  --red-900: #ff6369;
+  --red-1000: #feecee;
+
+  --amber-100: #271700;
+  --amber-200: #341c00;
+  --amber-300: #4a2900;
+  --amber-400: #573300;
+  --amber-500: #693f05;
+  --amber-600: #e79c13;
+  --amber-700: #ffb224;
+  --amber-800: #ff990a;
+  --amber-900: #f1a10d;
+  --amber-1000: #f1a10d;
+
+  --green-100: #0b2211;
+  --green-200: #0f2c17;
+  --green-300: #11351b;
+  --green-400: #0c461b;
+  --green-500: #126427;
+  --green-600: #1a9338;
+  --green-700: #46a758;
+  --green-800: #388e4a;
+  --green-900: #63c174;
+  --green-1000: #e5fbeb;
+
+  --teal-100: #04201b;
+  --teal-200: #062923;
+  --teal-300: #083a33;
+  --teal-400: #053c34;
+  --teal-500: #085e53;
+  --teal-600: #0c9784;
+  --teal-700: #46a758;
+  --teal-800: #388e4a;
+  --teal-900: #63c174;
+  --teal-1000: #e5fbeb;
+
+  --purple-100: #221527;
+  --purple-200: #432155;
+  --purple-300: #432155;
+  --purple-400: #4e2667;
+  --purple-500: #5f2d84;
+  --purple-600: #8e4ec6;
+  --purple-700: #8e4ec6;
+  --purple-800: #763da9;
+  --purple-900: #bf7af0;
+  --purple-1000: #f7ecfc;
+
+  --pink-100: #27141c;
+  --pink-200: #3c1827;
+  --pink-300: #4f1c31;
+  --pink-400: #541b33;
+  --pink-500: #6c1e3f;
+  --pink-600: #b21a57;
+  --pink-700: #e93d82;
+  --pink-800: #de2670;
+  --pink-900: #f76190;
+  --pink-1000: #feecf4;
+
+  /* ========== Borders and Radius ========== */
+
+  /* ========== Z-Index Levels ========== */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* cursor: none; */
+}
+
+html {
+  font-size: 62.5%; /* 10px by default*/
+}
+
+body {
+  font-family: "Hitchcut", sans-serif;
+}
+
+/*  ==================== HEADER AND NAV ==================== */
